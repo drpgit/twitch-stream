@@ -1,0 +1,59 @@
+.twitch-header {
+  background-color: #ff383f;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.twitch-button {
+  display: inline-block;
+  padding: 10px 20px 0 20px;
+  color: #a9a9a9;
+  margin: 0 10px -25px 10px;
+  background-color: white;
+}
+
+.twitch-button.active {
+  color: white;
+  background-color: #a9a9a9;
+}
+
+.twitch-button:hover {
+  color: white;
+  background-color: #a9a9a9;
+}
+
+.twitch-listings {
+  margin-top: 3px;
+}
+
+.listing {
+  background-color: #a9a9a9;
+  padding: 20px;
+  margin-bottom: 3px;
+}
+
+.listing-active {
+  background-color: lightgreen;
+  padding: 20px;
+  margin-bottom: 3px;
+}
+
+.listing-icon {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.listing-name {
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+
+.listing-status {
+  color: #ff383f;
+  margin-left: 10px;
+}
+
+.listing-status.online {
+  color: green;
+}
